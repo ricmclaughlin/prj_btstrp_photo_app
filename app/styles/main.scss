@@ -4,90 +4,330 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
+// .browsehappy {
+//   margin: 0.2em 0;
+//   background: #ccc;
+//   color: #000;
+//   padding: 0.2em 0;
+// }
 
-/* Space out content a bit */
+// /* Space out content a bit */
+// body {
+//   padding-top: 20px;
+//   padding-bottom: 20px;
+// }
+
+// /* Everything but the jumbotron gets side spacing for mobile first views */
+// .header,
+// .marketing,
+// .footer {
+//   padding-left: 15px;
+//   padding-right: 15px;
+// }
+
+// /* Custom page header */
+// .header {
+//   border-bottom: 1px solid #e5e5e5;
+
+//   /* Make the masthead heading the same height as the navigation */
+//   h3 {
+//     margin-top: 0;
+//     margin-bottom: 0;
+//     line-height: 40px;
+//     padding-bottom: 19px;
+//   }
+// }
+
+// /* Custom page footer */
+// .footer {
+//   padding-top: 19px;
+//   color: #777;
+//   border-top: 1px solid #e5e5e5;
+// }
+
+// .container-narrow > hr {
+//   margin: 30px 0;
+// }
+
+// /* Main marketing message and sign up button */
+// .jumbotron {
+//   text-align: center;
+//   border-bottom: 1px solid #e5e5e5;
+//   .btn {
+//     font-size: 21px;
+//     padding: 14px 24px;
+//   }
+// }
+
+// /* Supporting marketing content */
+// .marketing {
+//   margin: 40px 0;
+//   p + h4 {
+//     margin-top: 28px;
+//   }
+// }
+
+// /* Responsive: Portrait tablets and up */
+// @media screen and (min-width: 768px) {
+//   .container {
+//     max-width: 730px;
+//   }
+
+//   /* Remove the padding we set earlier */
+//   .header,
+//   .marketing,
+//   .footer {
+//     padding-left: 0;
+//     padding-right: 0;
+//   }
+
+//   /* Space out the masthead */
+//   .header {
+//     margin-bottom: 30px;
+//   }
+
+//   /* Remove the bottom border on the jumbotron for visual effect */
+//   .jumbotron {
+//     border-bottom: 0;
+//   }
+// }
+// body {
+//   padding-top: 50px;
+// }
+
+// .em-text{
+//   color:#1caa98 !important;
+// }
+
+// .col-md-4{
+//   margin-bottom:20px;
+// }
+
+// section{
+//   padding:40px 0 40px 0;
+// }
+
+// .jumbotron{
+//   background:#1b222a url(../images/site_showcase_bg.jpg) no-repeat top center;
+//   color:#fff;
+//   height: 540px;
+//   overflow:none;
+
+// }
+
+// .jumbotron h1{
+//   margin-top:60px;
+// }
+
+
+
+// .jumbotron p{
+//   margin-bottom:40px;
+// }
+
+// .jumbotron img.app-btn{
+//   width:40%;
+//   margin-right:30px;
+// }
+
+// .jumbotron img.showcase-img {
+//   width: 75%;
+//   vertical-align: bottom;
+// }
+
+
+// img.demo{
+//   width:100%;
+//   padding:3px;
+//   border: 1px solid #ccc;
+// }
+
+// section#feature {
+//   background: #1caa98;
+//   color: #fff;
+//   padding: 40px;
+//   overflow: auto;
+// }
+
+// section#feature ul li {
+//   // font-size: 22px;
+//   list-style: none;
+//   line-height: 2.0em;
+// }
+
+// footer {
+//   background: #333;
+//   color: #fff;
+//   padding: 30px 0 20px 0;
+// }
+
+// footer li {
+//   float: left;
+//   padding: 0 10px 0 10px;
+//   list-style: none;
+// }
+
+// footer a {
+//   color: #fff;
+// }
+
+// footer p {
+//   float: right;
+  
+// }
+
+
 body {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 50px;
 }
 
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
+section {
+  padding: 40px 0 40px 0;
 }
 
-/* Custom page header */
-.header {
-  border-bottom: 1px solid #e5e5e5;
+.navbar-header .navbar-brand, .em-text {
+  color: #1caa98;
+}
 
-  /* Make the masthead heading the same height as the navigation */
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
+.col-md-4{
+  margin-bottom: 20px;
+}
+.jumbotron img.app-btn {
+  width: 40%;
+  margin-right: 30px;
+}
+
+.jumbotron h1 {
+  margin-top: 60px;
+}
+
+.jumbotron{
+  background: #1b222a url(../img/site_showcase_bg.jpg) no-repeat top center;
+  color: white;
+  height: 500px;
+  overflow: none;
+}
+
+.jumbotron p {
+  margin-bottom: 40px;
+}
+
+.jumbotron img.showcase-img {
+  width: 75%;
+  vertical-align: bottom;
+}
+
+img.demo {
+  width: 100%;
+  padding: 3px;
+  border: 1px solid #ccc;
+}
+
+section#feature {
+  background: #1caa98;
+  color: white;
+  padding: 40px 0 40px 0;
+  overflow: auto;
+}
+
+section#feature ul li {
+  font: 22px;
+  list-style: none;
+  line-height: 2.0em;
+}
+
+section#feature ul {
+  padding: 0;
+  margin: 0;
+}
+
+section#title-bar {
+  height: 80px;
+  background: #1caa98;
+  color: white;
+  padding: 0;
+  margin: 0;
+}
+
+section#title-bar h1 {
+  margin-bottom: 20px;
+}
+footer {
+  background: #333;
+  color: #fff;
+  padding: 30px 0 20px 0;
+}
+
+footer li{
+  float: left;
+  padding: 0 10px 0 10px;
+  list-style-type: none;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer p{
+  float: right;
+}
+
+/*media queries */
+
+@media(max-width: 1200px){
+
+}
+
+@media(max-width: 991px){
+  .showcase-img {
+    display: none;
   }
 }
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: #777;
-  border-top: 1px solid #e5e5e5;
-}
-
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-  }
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-  p + h4 {
-    margin-top: 28px;
-  }
-}
-
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
+@media(min-width: 768px) and (max-width: 990px){
+  .jumbotron img.app-btn{
+    width: 30%;
   }
 
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
-  }
-
-  /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
-    border-bottom: 0;
+    height: 400px ;
+    background-size: 100% 100%;
   }
+
+  .jumbotron h1{
+    margin-top: 10px;
+  }
+}
+
+@media(max-width: 768px) {
+  .jumbotron {
+    height: 350px ;
+    background-size: 100% 100%;
+  }
+
+  .jumbotron h1{
+    margin-top: 10px;
+  }
+}
+
+@media(max-width: 500px) {
+  .jumbotron {
+    height: 450px ;
+    background-image: none;
+    text-align: center;
+  }
+  .jumbotron img.app-btn{
+    width: 60%;
+    margin: 0 auto 30px auto;
+    display: block;
+  }
+  section#feature ul li{
+    font-size: 19px !important;
+  }
+  footer p{
+    float: none;
+    text-align: center;
+    //padding-top: 
+  }
+
 }
