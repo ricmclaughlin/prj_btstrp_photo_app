@@ -202,7 +202,7 @@ section {
 }
 
 .jumbotron{
-  background: #1b222a url(../img/site_showcase_bg.jpg) no-repeat top center;
+  background: #1b222a url(../images/site_showcase_bg.jpg) no-repeat top center;
   color: white;
   height: 500px;
   overflow: none;
@@ -274,9 +274,9 @@ footer p{
 
 /*media queries */
 
-@media(max-width: 1200px){
+// @media(max-width: 1200px){
 
-}
+// }
 
 @media(max-width: 991px){
   .showcase-img {
@@ -284,7 +284,7 @@ footer p{
   }
 }
 
-@media(min-width: 768px) and (max-width: 990px){
+@media(min-width: 768px) and (max-width: 1200px){
   .jumbotron img.app-btn{
     width: 30%;
   }
